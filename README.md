@@ -12,22 +12,22 @@ Inspired by the Interactive Programming Platform - [Scratch](https://scratch.mit
 - OS: Windows 10/Linux
 
 ## How to run?
-- **Step 1:** `git clone https://github.com/piyush2896/Scratch_knockoff.git`
+- **Step 1:** `git clone https://github.com/AmudhanManisekaran/MatHub---Math-Learning-Platform.git`
 - **Step 2:** `pip install -r requirements.txt`
 - **Step 3:** Start a terminal
 - **Step 4:** In the terminal:
-  - `cd Scratch_knockoff\src`
+  - `cd MatHub---Math-Learning-Platform\src`
   - `python app.py`
 - **Step 5:** Go to `localhost:3000`:
   - This will initialize the firebase based Database
   - Default admin username - `admin@mathub.com`
   - Default admin password - `admin` (SHA256 encrypted on firebase)
   - Example Student1:
-    - Username: `vaishali@mathub.com`
-    - Password: `s103_vaishali@mathub-com`to be updated
+    - Username: `yazhini@mathub.com`
+    - Password: `s103_yazhini@mathub-com`to be updated
   - Example Student2:
-    - Username: `piyush@mathub.com`
-    - Password: `s105_piyush@mathub-com`
+    - Username: `amudhan@mathub.com`
+    - Password: `s105_amudhan@mathub-com`
   - When admin creates a new student, make sure to remember the ID displayed on creation, as that will be a part of the default password for that user. 
     - Default password format: `<lowercase ID>_<username, with -com replacing .com>`. See Example students for clarification.
 
