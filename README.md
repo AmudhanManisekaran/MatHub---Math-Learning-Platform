@@ -1,22 +1,28 @@
 # MatHub - Math Learning Platform
-Inspired by the Interactive Programming Platform - [Scratch](https://scratch.mit.edu/). The basic difference between the two being - Scratch represents a visually appealing programming interface, while MatHub is a visually appealing mathematics hub, for students from different stages of their schooling.
 
-**Development Team (Contributors):**
-1. [Amudhan Manisekaran](https://github.com/AmudhanManisekaran)
-2. [Sandya Manoharan](https://github.com/san1197/)
-3. [Piyush Malhotra](https://github.com/piyush2896/)
-4. [Anusha Singh](https://github.com/anushasingh30/)
+## Features
+- Interactive way to learn mathematics from level K-1 to K-8.
+- Create, edit and remove student/parent/teacher profiles in database.
+- Create assignment option and automated grading for teacher.
+- Students can learn concepts such as:
+	- Addition
+	- Subtraction
+	- Multiplication
+	- Division
+	- Power of n
+	- Charts
+	- Square root
 
 ## Basic System Requirements
 - Programming Language: Python 3.5
 - OS: Windows 10/Linux
 
 ## How to run?
-- **Step 1:** `git clone https://github.com/AmudhanManisekaran/MatHub---Math-Learning-Platform.git`
+- **Step 1:** `git clone https://github.com/san1197/MatHub-Math-Learning-Platform.git`
 - **Step 2:** `pip install -r requirements.txt`
 - **Step 3:** Start a terminal
 - **Step 4:** In the terminal:
-  - `cd MatHub---Math-Learning-Platform\src`
+  - `cd MatHub-Math-Learning-Platform\src`
   - `python app.py`
 - **Step 5:** Go to `localhost:3000`:
   - This will initialize the firebase based Database
@@ -26,9 +32,7 @@ Inspired by the Interactive Programming Platform - [Scratch](https://scratch.mit
     - Username: `yazhini@mathub.com`
     - Password: `s103_yazhini@mathub-com`to be updated
   - Example Student2:
-    - Username: `amudhan@mathub.com`
-    - Password: `s105_amudhan@mathub-com`
+    - Username: `sandya@mathub.com`
+    - Password: `sandya@mathub-com`
   - When admin creates a new student, make sure to remember the ID displayed on creation, as that will be a part of the default password for that user. 
     - Default password format: `<lowercase ID>_<username, with -com replacing .com>`. See Example students for clarification.
-
-
